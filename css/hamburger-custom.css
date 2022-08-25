@@ -1,0 +1,14 @@
+
+.hamburger {
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 1rem;
+}
+.hamburger{
+    padding: 0;
+}
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before{
+    background: var(--cs-primary) !important;
+    height: var(--cs-line-width)!important;
+} 
